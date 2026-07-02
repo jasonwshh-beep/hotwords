@@ -1,0 +1,9 @@
+{
+  "name":"kick-hotwords-pro",
+  "version":"1.0.0",
+  "description":"Railway-ready Kick chat hot words tracker with dashboard and OBS overlay",
+  "main":"server.js",
+  "scripts":{"start":"node server.js"},
+  "engines":{"node":">=18"},
+  "dependencies":{"@fastify/static":"latest","fastify":"latest","ws":"latest"}
+}
